@@ -1,0 +1,118 @@
+﻿
+
+body {
+    background-color: #2A2A28;
+    padding: 2px;
+}
+
+toplevel {
+    width: 80%;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+    color: blue;
+    display: inline;
+    margin: 10px auto 10px auto;
+}
+
+p.top {
+    width: 80%;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+    color: blue;
+    display: inline;
+    margin: 10px auto 10px auto;
+}
+
+
+
+p.one {
+        color: aliceblue;
+        font-size: 32px;
+        text-align: center;
+        line-height: 1px;
+}
+
+p.two {
+    color: white; 
+    font-size: 18px; 
+    text-align: center;
+}
+
+div.one {
+    margin: 10px auto 10px auto;
+    width: 80%;
+    border: 2px solid aqua;
+    outline: 2px solid white;
+    outline-offset: 5px;
+    padding: 10px;
+}
+
+div.two {
+    margin: 10px auto 10px auto;
+    width: 80%;
+    border: 10px solid gold;
+    outline: 2px dashed white;
+    outline-offset: 5px;
+    padding: 10px;
+    background-color: black;
+    color: yellow;
+} 
+
+p.roundborder {
+    border: 6px solid white;
+    border-radius: 10px;
+    width: 80%;
+    line-height: 20px;
+    margin: 10px auto 10px auto;
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+
+p.borderbottom {
+    border-bottom: 6px solid red;
+    background-color: lightgrey;
+    width: 80%;
+    margin: 10px auto 10px auto;
+    text-align: center;
+}
+
+div.margintop {
+    border: 1px solid black;
+    margin: 5px 50px;
+    background-color: lightblue;
+}
+
+p.draw {
+    border-radius: 3em 2em 4em 10em;
+    border: 2px solid white;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    line-height: 6em;
+    color: white;
+    letter-spacing: 2px;
+    height: 120px;
+    margin: 10px auto 10px auto;
+}
+
+p.draw2 {
+    border-top-left-radius: 1em 1em;
+    border-radius: 14em 5em 1em 3em;
+    border-top-right-radius: 13em 9em;
+    border-bottom-right-radius: 6em 2em;
+    border-bottom-left-radius: 10em 9em;
+    border: 2px solid white;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    line-height: 6em;
+    color: white;
+    letter-spacing: 2px;
+    height: 120px;
+    margin: 10px auto 10px auto;
+}
