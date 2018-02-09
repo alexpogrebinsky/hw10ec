@@ -1,0 +1,33 @@
+{
+  "things": [
+    {
+      "location": "Bar Harbor, Maine",
+      "description": "A beautiful and tranquil sleepy town on the edge of Maine, at the foot of the great Cadillac Mountain in Acadia National Park.",
+      "pictures": "img/bar_harbor.jpg"
+    },
+
+    {
+      "location": "Brooklyn, NY",
+      "description": "An amazing borough of NYC, filled with great creativity and energy.",
+      "pictures": "img/brooklyn.jpg"
+    },
+
+    {
+      "location": "Cleveland, OH",
+      "description": "My hometown, filled with great people, parks, and food.",
+      "pictures": "img/cleveland.jpg"
+    },
+
+    {
+      "location": "Saratoga Springs, NY",
+      "description": "A historic small town with a gorgeous racetrack and wonderful spots.",
+      "pictures": "img/saratoga.jpg"
+    },
+
+    {
+      "location": "Barcelona, Spain",
+      "description": "A great European city with fantastic food, a great beach, and lots of great architecture.",
+      "pictures": "img/barcelona.jpg"
+    }
+  ]
+}

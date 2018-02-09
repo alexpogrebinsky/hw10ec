@@ -1,0 +1,22 @@
+{
+  "things": [
+    {
+      "location": "Bar Harbor, Maine",
+      "description": "A beautiful and tranquil sleepy town on the edge of Maine, at the foot of the the great Cadillac Mountain in Acadia National Park.",
+      "pictures": "img/bar_harbor.jpg"
+    },
+
+    {
+      "location": "Bar Harbor, Maine",
+      "description": "A beautiful and tranquil sleepy town on the edge of Maine, at the foot of the the great Cadillac Mountain in Acadia National Park.",
+      "pictures": "img/brooklyn.jpg"
+    },
+
+    {
+      "location": "Cleveland, OH",
+      "description": "My hometown, filled with great people, parks, and great food.",
+      "pictures": "img/cleveland.jpg"
+    }
+
+  ]
+}
