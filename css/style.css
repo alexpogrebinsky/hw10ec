@@ -1,0 +1,314 @@
+﻿
+
+.content {
+
+    
+}
+
+body {
+    background: #e0eaf2;
+    margin: 0 auto;
+}
+
+.op { position: absolute;
+      z-index: 1000;
+    width: 250px;
+    height: 20px;
+    top: 290px;
+    right: 10px;
+    background-image: url("001.jpeg");
+    opacity: .3;
+   
+}
+
+.one {
+    padding: 10px;
+    padding-left: 25px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1.2px;
+    font-size: 13px;
+    font-weight: 600;
+    word-spacing: 22px;
+    background-color: #404052;
+}
+
+
+.secondlevel {
+    background-color: #d9e6ef;
+    padding: 10px;
+    height: 200px;
+    text-align: left;
+    color: blue;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    background-image: url("../001.jpeg");
+    background-size: cover;
+}
+
+.picture {
+    background-color: red;
+    position: absolute;
+    z-index: 1000;
+    height: 200px;
+    background-image: url("002.png");
+    background-size: contain;
+    width: 200px;
+    top: 70px;
+    left: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.thirdlevel {
+    background-color: #404052;
+    padding: 10px;
+    height: 80px;
+    text-align: right;
+    color: white;
+    font-size: 32px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    background-size: cover;
+}
+
+
+
+p.hyper a {
+    color: orange;
+    line-height: .5px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+p.hyper a:hover {
+    color: white;
+
+}
+
+p.about {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    line-height: 1.5em;
+}
+
+
+p.about a {
+    text-decoration: underline dotted black;
+    color: darkslategrey;
+}
+
+    p.about a:hover {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+
+
+
+.fourthlevel {
+    background: blue;
+    padding: 0 5px 0 5px;
+}
+
+.c-one {
+    
+    
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    
+   
+    
+}
+
+
+input {
+    border: 1px dotted white;
+    line-height: 1.5em;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 25%;
+    line-height: 25px;
+
+}
+
+fieldset {
+    border-radius: 5px;
+    border: 1px dotted white;
+    background-color: #c7dae7;
+    line-height: 25px;
+}
+
+.small {
+    width: 85%;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+    opacity: .5;
+}
+
+.small:hover {
+    border: 1px solid white;
+    box-shadow: 1px 1px lightgrey;
+    opacity: 1;
+}
+
+form {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+hr {
+    border-top: 1px dotted grey;
+    border-bottom: 0;
+    border-left:0;
+    border-right:0;
+    width: 95%;
+}
+
+ul {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+table {
+    width: 100%;
+    font-size: 7pt;
+    text-align: center;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px dotted white;
+}
+
+td:hover {
+    background: black;
+    color: white;
+    cursor: col-resize;
+}
+
+/*image text*/
+
+.imgcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.imgtext {
+    position: absolute;
+    bottom: 18px;
+    right: 16px;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.opacityimg {
+    opacity:0.5;
+ 
+}
+
+p.des {
+    font-size: 13px;
+    font-weight: 720;
+    color: black;
+    line-height: 2em;
+    text-align: center;
+}
+
+
+p.heading {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: darkslategrey;
+    text-align: center;
+}
+
+img {
+    max-width:100%;
+    box-shadow: 2px 2px grey;
+}
+
+p.desc {
+    font-size: 13px;
+    line-height: 18px;
+    color: darkslategrey;
+}
+
+p.loc {
+    font-size: 15px;
+    line-height: 18px;
+    color:blue;
+}
+
+button {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: darkslategrey;
+    text-align: center;
+    background: transparent;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px dotted grey;
+}
+
+button:hover {
+
+    font-size: 15px;
+    border: 1px solid black;
+
+}
+
+
+
+
+@media screen and (max-width: 680px) {
+
+    .picture {
+    background-color: red;
+    position: absolute;
+    z-index: 1000;
+    height: 150px;
+    background-image: url("002.png");
+    background-size: contain;
+    width: 150px;
+    top: 70px;
+    left: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+            }
+
+
+    .secondlevel {
+        background-color: #d9e6ef;
+        padding: 10px;
+        height: 200px;
+        text-align: left top-bottom;
+        color: blue;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        background-image: url("../001.jpeg");
+        background-size: cover;
+    }
+
+}
